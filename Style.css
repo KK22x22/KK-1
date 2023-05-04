@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headingimage img{
+    width: 100px;
+    margin-left: 47%;
+}
+.headingimage h1{
+    text-align: center;
+    color: brown;
+}
+
+/* The navigation tab at the top */
+.HomeNavigation{
+    background-color: black;
+    display: block;
+    padding: 0px 0px 20px 90px;
+    height: 18px;
+}
+.HomeNavigation ul{
+    list-style: none;
+}
+.HomeNavigation a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.HomeNavigation li{
+    display: inline-block;
+    padding: 10px 60px;
+}
+.HomeNavigation li:hover{
+    background-color: rgb(10, 77, 54);
+}
+
+/* The more sips more tips thing */
+.ProductLeft,.ProductRight{
+    max-width: 50%;
+}
+.ProductRight img{
+   display: block;
+    max-width: 100%;
+    
+}
+.Product{
+    display: flex;
+}
+.ProductTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.ProductDescription p {
+    font-size: 20px;
+    text-align: center;
+}
+.ProductButton {
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ProductButton a{
+    text-decoration: none;
+    color: bisque;
+}
+.ProductButton:hover{
+    background-color: red;
+}
+
+/* Product nitro starts here */
+.ProductLeftNitro,.ProductRightNitro{
+    max-width: 50%;
+}
+.ProductLeftNitro img{
+    max-width: 100%;
+    display: block;
+    
+}
+.ProductNitro{
+    display: flex;
+}
+.ProductTitleNitro h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.ProductDescriptionNitro p {
+    font-size: 20px;
+    text-align: center;
+}
+.ProductButtonNitro {
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ProductButtonNitro a{
+    text-decoration: none;
+    color: bisque;
+}
+.ProductButtonNitro:hover{
+    background-color: blueviolet;
+}
+
+/* Pink drink starts here */
+.ProductLeftPink,.ProductRightPink{
+    max-width: 50%;
+}
+.ProductRightPink img{
+    max-width: 100%;
+    display: block;
+    
+}
+.ProductPink{
+    display: flex;
+}
+.ProductTitlePink h1 {
+    padding-top: 125px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.ProductDescriptionPink p {
+    font-size: 20px;
+    text-align: center;
+}
+.ProductButtonPink {
+    border: 1px solid;
+    border-color: rgb(77, 23, 23);
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ProductButtonPink a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.ProductButtonPink:hover{
+    background-color: lightgreen;
+}
+
+/* FOOOOODODDD */
+.ProductLeftFood,.ProductRightFood{
+    max-width: 50%;
+}
+.ProductLeftFood img{
+    max-width: 100%;
+    display: block;
+    
+}
+.ProductFood{
+    display: flex;
+}
+.ProductTitleFood h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.ProductDescriptionFood p {
+    font-size: 20px;
+    text-align: center;
+}
+.ProductButtonFood {
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ProductButtonFood a{
+    text-decoration: none;
+    color: #1e3932;
+}
+.ProductButtonFood:hover{
+    background-color: orange;
+}
+/* footer stuff */
+.row{
+    display: flex;
+}
+
+.footer-column{
+    width: 18%;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.footer-column ul{
+    list-style: none;
+}
+.footer-column h3{
+    
+}
+
+.footer-column li{
+    text-align: justify;
+    padding-top: 10px;
+}
+.footer {
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 50px 0px;
+    box-shadow: 0px -8px 5px -2px rgba(173,173,173,1);
+    -webkit-box-shadow: 0px -8px 5px -2px rgba(173,173,173,1);
+    -moz-box-shadow: 0px -8px 5px -2px rgba(173,173,173,1);
+}
+
+/* tea section starts, foooter */
+.divider{
+
+}
+.ChaiTeas {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 10%;
+
+}
+.ChaiTeas img{
+    border-radius: 100%;
+}
+.ChaiTeas h3{
+    margin-left: 6%;
+}
+.HotTeas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+
+}
+.HotTeas img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.HotTeas h3{
+    margin-left: 6%;
+
+}
+.GreenTeas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+
+}
+.GreenTeas img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.GreenTeas h3{
+    margin-left: 6%;
+}
+.HerbTeas {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 10%;
+
+}
+.HerbTeas img{
+    border-radius: 100%;
+}
+.HerbTeas h3{
+    margin-left: 6%;
+}
+
+/* Coffee */
+
+.Americanos{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 10%;
+}
+.Americanos img{
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+.BrewedCoffees{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+}
+
+.BrewedCoffees img{
+    width: 200px;
+    border-radius: 100%;
+    
+}
+
+/* Repeatable stuff */
+
+.OneItem {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 10%;
+
+}
+.OneItem img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.OneItem h3{
+    margin-left: 3%;
+}
+
+.TwoItem {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10%;
+
+}
+.TwoItem img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.TwoItem h3{
+    margin-left: 0%;
+}
+
+.ThreeItem {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: 10%;
+
+}
+.ThreeItem img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.ThreeItem h3{
+    margin-left: 6%;
+}
+
+.FourItem {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.FourItem img{
+    border-radius: 100%;
+    max-width: 200px;
+}
+.FourItem h3{
+    margin-left: 6%;
+}
+.SimpleButton {
+    border: 1px solid;
+    border-color: rgb(77, 23, 23);
+    max-width: max-content;
+    margin-left: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.SimpleButton a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.SimpleButton:hover{
+    background-color: lightgreen;
+}
+
+/* About us section */
+
+.AboutUs h1{
+    margin-left: 400px;
+}
+.AboutUs h2{
+    margin-left: 400px;
+    
+}
+.AboutUs h3{
+    margin-left: 400px;
+    text-align: left; 
+    margin-right: 400px;
+}
+.AboutUs img{
+    width: 45%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
